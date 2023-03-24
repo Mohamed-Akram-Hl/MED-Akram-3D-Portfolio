@@ -15,6 +15,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>{HeroP[0].points[0]}<br className="sm:block hidden"/>{HeroP[0].points[1]}</p>
         </div>
       </div>
+      <ComputersCanvas/>
     </section>
   )
 }
