@@ -39,7 +39,12 @@ import {
       title: "Contact",
     },
   ];
-  
+  export const HeroP = [
+    {
+      name: "Akram",
+      points: ["I develop 3D visuals, user ", "interfaces and web applications."]
+    },
+  ];
   const services = [
     {
       title: "Web Developer",
