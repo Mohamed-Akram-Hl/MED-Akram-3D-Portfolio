@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
             <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">{HeroP[0].name}</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>{HeroP[0].points[0]}<br className="sm:block hidden"/>{HeroP[0].points[1]}</p>
-          </div>
+        </div>
       </div>
     </section>
   )
